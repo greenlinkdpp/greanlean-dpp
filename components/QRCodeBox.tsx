@@ -21,7 +21,7 @@ export default function QRCodeBox({
       }}
     >
       <QRCodeSVG
-        value={`http://localhost:3000/dpp/${id}`}
+        value={`https://greanlean-dpp.vercel.app/dpp/${id}`}
         size={120}
         bgColor={"#111"}
         fgColor={"#00FF99"}
